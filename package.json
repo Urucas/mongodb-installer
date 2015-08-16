@@ -4,7 +4,7 @@
   "description": "",
   "main": "installer.js",
   "scripts": {
-    "build": "node compiler.js",
+    "build": "grunt build",
     "start": "npm run build && node installer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

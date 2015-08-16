@@ -1,0 +1,37 @@
+{
+  "name": "mongodb-installer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "installer.js",
+  "scripts": {
+    "build": "node compiler.js",
+    "start": "npm run build && node installer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urucas/mongodb-installer.git"
+  },
+  "keywords": [
+    "mongo",
+    "db",
+    "mongodb",
+    "nosql"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/mongodb-installer/issues"
+  },
+  "homepage": "https://github.com/Urucas/mongodb-installer#readme",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "grunt": "^0.4.5",
+    "grunt-babel": "^5.0.1",
+    "grunt-mkdir": "^0.1.2",
+    "load-grunt-tasks": "^3.2.0"
+  },
+  "dependencies": {
+    "minimist": "^1.1.3"
+  }
+}

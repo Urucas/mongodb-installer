@@ -16,7 +16,7 @@ mongodb-installer --dbpath <realtive_path_to_data_db>
 ```javascript
 import PlatformInstaller from 'mongodb-installer'
 let db_path = "data/db"
-let installer = new PlatformInstaller(process.platform, db_path)
+let installer = new MongoInstaller(process.platform, db_path)
   installer.run( (err, data) => {
     console.log(data);
     // { db: '/path/to/my/project/data/db',

@@ -10,6 +10,7 @@ npm install mongodb-installer
 ```bash
 mongodb-installer --dbpath <realtive_path_to_data_db>
 ```
+<img src="https://raw.githubusercontent.com/Urucas/mongodb-installer/master/screen.png" />
 
 **API**
 ```javascript

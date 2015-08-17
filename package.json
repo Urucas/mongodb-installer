@@ -5,7 +5,7 @@
   "main": "./dist/PlatformInstaller.js",
   "scripts": {
     "build": "grunt build",
-    "start": "npm run build && node installer.js",
+    "start": "npm run build && node installer.js"
   },
   "bin": {
     "mongodb-installer": "node ./installer.js"

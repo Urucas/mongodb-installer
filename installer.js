@@ -12,7 +12,7 @@ var PlatformInstaller = require('./dist/PlatformInstaller.js'),
   
   installer.run(function(err, data){
     if(err) {
-      console.log(err.toString());
+      console.log(err);
       process.exit(1);
     }
     console.log(data);

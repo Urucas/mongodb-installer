@@ -20,6 +20,8 @@ let installer = new MongoInstaller(process.platform, db_path)
   installer.run( (err, data) => {
     console.log(data);
     // { db: '/path/to/my/project/data/db',
+    //  bin: '/path/to/my/project/data/mongodb/bin/mongod',
+    //  params: ['--dbpath', '/path/to/my/project/data//data/db'],
     //  cmd: '/path/to/my/project/data/mongodb/bin/mongod --dbpath /path/to/my/project/data//data/db' }
   });
 ```

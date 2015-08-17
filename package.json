@@ -8,7 +8,7 @@
     "start": "npm run build && node installer.js"
   },
   "bin": {
-    "mongodb-installer": "node ./installer.js"
+    "mongodb-installer": "./installer.js"
   },
   "repository": {
     "type": "git",

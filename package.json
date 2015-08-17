@@ -2,11 +2,13 @@
   "name": "mongodb-installer",
   "version": "0.0.1",
   "description": "",
-  "main": "installer.js",
+  "main": "./dist/PlatformInstaller.js",
   "scripts": {
     "build": "grunt build",
     "start": "npm run build && node installer.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mongodb-installer": "node ./installer.js"
   },
   "repository": {
     "type": "git",
